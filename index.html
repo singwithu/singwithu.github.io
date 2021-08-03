@@ -1,1 +1,72 @@
-<h1>Sing WithU</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sing WithU</title>
+    <meta charset="UTF-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      
+      body {
+        font-family: "Montserrat";
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2e2e2e;
+      }
+
+      .title {
+        font-size: clamp(3.75rem, 12vw, 12rem);
+        font-weight: 800;
+        will-change: auto; 
+        background-repeat: no-repeat;
+        background-image: url("https://unblast.com/wp-content/uploads/2018/08/Gradient-Mesh-1.jpg");
+        background-size: 200%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: bg 8s cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
+      }
+
+      @keyframes bg {
+        0% {
+          background-position: 5% 5%;
+        }
+        25% {
+          background-position: 5% 95%;
+        }
+        50% {
+          background-position: 95% 95%;
+        }
+        75% {
+          background-position: 5% 95%;
+        }
+        100% {
+          background-position: 5% 5%;
+        }
+      }
+      
+      .footer {
+        position: absolute;
+        bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">Sing WithU</h1>
+
+    <div class="footer">
+      <p style="bottom: 15px; left: 15px; font-size: 16px; font-weight: 400; text-align: center;color:#bbbbbb;">
+          A project by
+      <a style="color:#fafafa;" href="https://twitter.com/mayustrongscalp" target="_blank">@mayustrongscalp</a>
+      <br />
+      Coming Soon.
+    </p>
+    </div>
+  </body>
+</html>
